@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian
+FROM debian:jessie
 
 LABEL modified "ahozsanchez@gmail.com"
 
