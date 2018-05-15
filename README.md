@@ -1,13 +1,15 @@
+# right now it does not work
+
 # docker-rpi-arduino
 
 Arduino development environment for Docker in raspberry pi
 
 A complete Arduino development environment for your builds inside docker. A good choice if you need to run arduino builds in your CI (Gitlab for example).
 
-# History
+## History
 This project is designed for those who want to use arduino easily in our raspberry pi, in console.
 
-# How to start it
+## How to start it
 
 - Unzip the file
 - Inside the folder we write:
@@ -15,7 +17,7 @@ This project is designed for those who want to use arduino easily in our raspber
 - When you finish the process write:
 - `source functions.sh`
 
-# Usage
+## Usage
 
 Just clone this repo, and source functions.sh, and you will have all functions that you need to run your environment. Some functions will be added to your current bash environment, they are:
 
