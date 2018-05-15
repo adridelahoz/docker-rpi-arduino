@@ -8,6 +8,7 @@ RUN apt-get update && \
     # Generic
     build-essential \
     curl \
+    apt-utils \
     wget \
     git \
     # Python
