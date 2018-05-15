@@ -2,8 +2,6 @@
 
 Arduino development environment for Docker in raspberry pi
 
-Docker Pulls
-
 A complete Arduino development environment for your builds inside docker. A good choice if you need to run arduino builds in your CI (Gitlab for example).
 
 # Usage
