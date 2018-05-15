@@ -1,0 +1,11 @@
+image: resin/rpi-raspbian
+
+build:
+  stage: build
+  script: 
+    - ino build
+    - cp .build/uno/firmware.hex .
+  artifacts:
+      name: 'firmaware--'
+      paths:
+          - firmware.hex
