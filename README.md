@@ -13,4 +13,5 @@ Just clone this repo, and source functions.sh, and you will have all functions t
 - `arduino-upload` - Considering that your arduino is mapped to /dev/ttyUSB0, it will upload your code to your board
 - `arduino-watch` - Considering that your arduino is mapped to /dev/ttyUSB0, it will monitor it's serial output and show in your console
 
-
+# History
+This project is designed for those who want to use arduino easily in our raspberry pi, in console.
