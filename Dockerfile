@@ -1,7 +1,6 @@
 FROM resin/rpi-raspbian
 
-LABEL created "opsxcq@strm.sh"
-LABEL modified by "ahozsanchez@gmail.com"
+LABEL modified "ahozsanchez@gmail.com"
 
 RUN apt-get update && \
     apt-get upgrade -y && \
