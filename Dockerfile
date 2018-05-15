@@ -4,7 +4,7 @@ LABEL modified "ahozsanchez@gmail.com"
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    DEBIAN_FRONTEND=noninteractive apt-get install -y \
+    DEBIAN_FRONTEND="noninteractive" apt-get install -y \
     # Generic
     build-essential \
     curl \
