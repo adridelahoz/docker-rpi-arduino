@@ -4,6 +4,17 @@ Arduino development environment for Docker in raspberry pi
 
 A complete Arduino development environment for your builds inside docker. A good choice if you need to run arduino builds in your CI (Gitlab for example).
 
+# History
+This project is designed for those who want to use arduino easily in our raspberry pi, in console.
+
+# How to start it
+
+- Unzip the file
+- Inside the folder we write:
+- `docker build -t arduino .` (The dot is important).
+- When you finish the process write:
+- `source functions.sh`
+
 # Usage
 
 Just clone this repo, and source functions.sh, and you will have all functions that you need to run your environment. Some functions will be added to your current bash environment, they are:
@@ -12,6 +23,3 @@ Just clone this repo, and source functions.sh, and you will have all functions t
 - `arduino-build` - Executes your build and generate your binary firmware
 - `arduino-upload` - Considering that your arduino is mapped to /dev/ttyUSB0, it will upload your code to your board
 - `arduino-watch` - Considering that your arduino is mapped to /dev/ttyUSB0, it will monitor it's serial output and show in your console
-
-# History
-This project is designed for those who want to use arduino easily in our raspberry pi, in console.
