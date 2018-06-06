@@ -12,7 +12,7 @@ This project is designed for those who want to use arduino easily in our raspber
 
 - Unzip the file
 - Inside the folder we write:
-- `docker build -t arduino .` (The dot is important).
+- `docker build -t arduino/rpi .` (The dot is important).
 - When you finish the process write:
 - `source functions.sh`
 
